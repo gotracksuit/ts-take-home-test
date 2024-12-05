@@ -27,6 +27,13 @@ This repo was developed against Deno 2.1.2.
 
 Most of the commands you'll need are provided by the Deno toolchain.
 
+### Running the server
+
+```sh
+cd server
+deno run dev
+```
+
 ### Typechecking
 
 ```sh
@@ -36,7 +43,7 @@ deno check .
 ### Testing
 
 ```sh
-deno test
+deno test --allow-all
 ```
 
 ### Linting

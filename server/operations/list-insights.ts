@@ -1,5 +1,5 @@
 import { Insight } from "$models/insight.ts";
-import { HasDbConnection } from "./shared.ts";
+import { HasDbConnection } from "../shared.ts";
 
 type Input = HasDbConnection;
 
