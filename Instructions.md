@@ -42,7 +42,7 @@ get the project over the line.
 
 Before they went under for surgery, Chuggs told us the work was nearly complete
 and everything done so far is pretty much flawless. They just had to write two
-more endpoints for working with reports--one to create an insight, and another
+more endpoints for working with insights--one to create an insight, and another
 to delete an insight.
 
 So, we need you to complete those two endpoints. Do it for Chuggs.
