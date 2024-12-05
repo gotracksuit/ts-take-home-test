@@ -16,17 +16,17 @@ router.get("/_health", (ctx) => {
   ctx.response.body = "OK";
 });
 
-router.get("/reports", async (ctx) => {
+router.get("/insights", async (ctx) => {
   const result = await listInsights({ dbConnection });
   ctx.response.body = result;
   ctx.response.body = 200;
 });
 
-router.get("/reports/create", (ctx) => {
+router.get("/insights/create", (ctx) => {
   // TODO
 });
 
-router.get("/reports/delete", (ctx) => {
+router.get("/insights/delete", (ctx) => {
   // TODO
 });
 
