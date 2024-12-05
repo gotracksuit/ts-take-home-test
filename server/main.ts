@@ -3,9 +3,13 @@ import * as oak from "@oak/oak";
 import { Port } from "./parsers.ts";
 import listInsights from "./operations/list-insights.ts";
 
+console.log("Loading configuration");
+
 const env = {
   port: Port.parse(Deno.env.get("SERVER_PORT")),
 };
+
+console.log("Initialising server");
 
 const router = new oak.Router();
 
