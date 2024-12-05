@@ -8,8 +8,9 @@ it!
 <!-- deno-fmt-ignore-start -->
 > [!Note] 
 > This task is meant to give us something to talk over in your technical
-> interview. We're not trying to trick you with something that requires fancy
-> algorithms to solve. 
+> interview. It should feel similar to the kind of day-to-day work you're used
+> to doing. We're not trying to trick you with something that requires fancy
+> algorithms to solve.
 <!-- deno-fmt-ignore-end -->
 
 ## Background
