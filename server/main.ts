@@ -1,4 +1,6 @@
 import * as oak from "@oak/oak";
+import { Database } from "@db/sqlite";
+import * as path from "@std/path";
 
 import { Port } from "./parsers.ts";
 import listInsights from "./operations/list-insights.ts";
@@ -9,11 +11,16 @@ const env = {
   port: Port.parse(Deno.env.get("SERVER_PORT")),
 };
 
+const dbFilePath = path.resolve("tmp", "db.sqlite3");
+
+console.log(`Opening SQLite database at ${dbFilePath}`);
+
+await Deno.mkdir(path.dirname(dbFilePath), { recursive: true });
+const dbConnection = new Database(dbFilePath);
+
 console.log("Initialising server");
 
 const router = new oak.Router();
-
-const dbConnection = {};
 
 router.get("/_health", (ctx) => {
   ctx.response.status = 200;

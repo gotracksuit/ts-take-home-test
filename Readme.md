@@ -30,7 +30,6 @@ Most of the commands you'll need are provided by the Deno toolchain.
 ### Running the server
 
 ```sh
-cd server
 deno run dev
 ```
 
