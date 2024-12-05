@@ -18,9 +18,14 @@ it!
 Imagine you are a developer at a promising startup called Suit Tracker Inc. Here
 at Suit Tracker, we have a huge network of well-paid interns that hang out at
 malls and note down what people are wearing out there in the wild. We then get
-our data science team to tell us what it all means, and our office fax is
-ringing off the hook with potential customers wanting to sign up to receive our
-fashion insights.
+our data science team to tell us what it all means.
+
+Our office fax is ringing off the hook with potential customers wanting to sign
+up to receive our fashion insights.
+
+<p align="center">
+   <img height="250" src="./assets/cs-team.jpg">
+</p>
 
 Right now we're faxing reports every month to our customers with our findings.
 But as we get more and more customers we're having problems keeping up with the
