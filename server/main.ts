@@ -27,8 +27,8 @@ router.get("/_health", (ctx) => {
   ctx.response.body = "OK";
 });
 
-router.get("/insights", async (ctx) => {
-  const result = await listInsights({ dbConnection });
+router.get("/insights", (ctx) => {
+  const result = listInsights({ dbConnection });
   ctx.response.body = result;
   ctx.response.body = 200;
 });
