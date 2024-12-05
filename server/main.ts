@@ -8,6 +8,11 @@ const env = {
 
 const router = new oak.Router();
 
+router.get("/_health", (ctx) => {
+  ctx.response.status = 200;
+  ctx.response.body = "OK";
+});
+
 const app = new oak.Application();
 
 app.use(router.routes());
