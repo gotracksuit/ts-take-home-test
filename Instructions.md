@@ -45,4 +45,11 @@ and everything done so far is pretty much flawless. They just had to write two
 more endpoints for working with insights--one to create an insight, and another
 to delete an insight.
 
-So, we need you to complete those two endpoints. Do it for Chuggs.
+So, we need you to:
+
+1. complete those two unfinished endpoints, and
+
+2. read through and understand the implementation pretty well, since you'll be
+   maintaining this code.
+
+Do it for Chuggs.
