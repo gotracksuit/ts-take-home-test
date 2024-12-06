@@ -26,8 +26,8 @@ console.log("Initialising server");
 const router = new oak.Router();
 
 router.get("/_health", (ctx) => {
-  ctx.response.status = 200;
   ctx.response.body = "OK";
+  ctx.response.status = 200;
 });
 
 router.get("/insights", (ctx) => {
