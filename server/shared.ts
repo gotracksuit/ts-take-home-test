@@ -1,5 +1,5 @@
 import { Database } from "@db/sqlite";
 
-export type HasDbConnection = {
-  dbConnection: Database;
+export type HasDBClient = {
+  db: Database;
 };

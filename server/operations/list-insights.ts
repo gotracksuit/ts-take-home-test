@@ -1,13 +1,13 @@
 import { Insight } from "$models/insight.ts";
-import { HasDbConnection } from "../shared.ts";
-import { Row } from "$tables/insights.ts";
+import { HasDBClient } from "../shared.ts";
+import * as insightsTable from "$tables/insights.ts";
 
-type Input = HasDbConnection;
+type Input = HasDBClient;
 
 export default (input: Input): Insight[] => {
   console.log("Listing insights");
 
-  const rows = input.dbConnection.sql<Row>`SELECT * FROM insights`;
+  const rows = input.db.sql<insightsTable.Row>`SELECT * FROM insights`;
 
   const result: Insight[] = rows.map((row) => ({
     ...row,

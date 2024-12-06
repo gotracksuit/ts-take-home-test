@@ -1,9 +1,9 @@
 import { Database } from "@db/sqlite";
 import * as insightsTable from "$tables/insights.ts";
-import { HasDbConnection } from "./shared.ts";
+import { HasDBClient } from "./shared.ts";
 import { afterAll, beforeAll } from "@std/testing/bdd";
 
-type Fixture = HasDbConnection & {
+type Fixture = HasDBClient & {
   insights: {
     insert(insights: insightsTable.Insert[]): void;
     selectAll(): insightsTable.Row[];
@@ -11,23 +11,23 @@ type Fixture = HasDbConnection & {
 };
 
 export const withDB = <R>(fn: (fixture: Fixture) => R): R => {
-  const dbConnection = new Database(":memory:");
+  const db = new Database(":memory:");
 
   beforeAll(() => {
-    dbConnection.exec(insightsTable.createTable);
+    db.exec(insightsTable.createTable);
   });
 
-  afterAll(() => dbConnection.close());
+  afterAll(() => db.close());
 
   return fn({
-    dbConnection,
+    db,
     insights: {
       selectAll() {
-        return dbConnection.sql<insightsTable.Row>`SELECT * FROM insights`;
+        return db.sql<insightsTable.Row>`SELECT * FROM insights`;
       },
       insert(insights) {
         for (const item of insights) {
-          dbConnection.exec(insightsTable.insertStatement(item));
+          db.exec(insightsTable.insertStatement(item));
         }
       },
     },
