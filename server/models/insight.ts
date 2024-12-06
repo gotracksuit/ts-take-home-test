@@ -8,4 +8,3 @@ export const Insight = z.object({
 });
 
 export type Insight = z.infer<typeof Insight>;
-export type Insight_In = z.input<typeof Insight>;
