@@ -2,7 +2,7 @@
 
 Hello, and thanks for taking the time to interview with us at Tracksuit! This is
 a take-home exercise we'd like you to complete. This shouldn't be hard and
-shouldn't take very long--if it takes more than two hours you're over-thinking
+shouldn't take very long — if it takes more than a few hours you're over-thinking
 it!
 
 <!-- deno-fmt-ignore-start -->
@@ -48,14 +48,16 @@ get the project over the line.
 
 Before they went under for surgery, Chuggs told us the work was nearly complete
 and everything done so far is pretty much flawless. They just had to write two
-more endpoints for working with insights--one to create an insight, and another
-to delete an insight.
+more endpoints for working with insights — one to create an insight, and another
+to delete an insight — and hook those up to their frontend.
 
 So, we need you to:
 
-1. complete those two unfinished endpoints, and
+1. Complete those two unfinished endpoints
 
-2. read through and understand the implementation pretty well, since you'll be
-   maintaining this code.
+2. Complete the missing frontend integrations with those new endpoints
+
+2. Read through and understand the implementation pretty well, since you'll be
+   maintaining this code
 
 Do it for Chuggs.
