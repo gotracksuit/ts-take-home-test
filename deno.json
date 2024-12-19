@@ -1,7 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/denoland/deno/refs/heads/v2.1/cli/schemas/config-file.v1.json",
-  "workspace": ["./server"],
+  "workspace": ["./server", "./client", "./lib"],
+  "nodeModulesDir": "auto",
   "tasks": {
-    "dev": "( cd server && deno run dev )"
+    "dev": "deno task dev",
+    "dev:server": "deno task dev --filter @suittracker/server",
+    "dev:client": "deno task dev --filter @stuittracker/client"
+  },
+  "compilerOptions": {
+    "lib": ["deno.window", "dom"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }
