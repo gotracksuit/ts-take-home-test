@@ -1,5 +1,5 @@
 .header {
-  grid-column: 1 / -1;
+  grid-column: 1 / -1 !important;
   display: grid;
   grid-template-columns: var(--grid-page);
   background: var(--color-purple-700);

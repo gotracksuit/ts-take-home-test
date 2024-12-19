@@ -8,7 +8,7 @@
   --text-md: var(--scale-0) / 1.375 var(--font-text);
   --text-lg: var(--scale-1) / 1.375 var(--font-text);
   --text-xl: var(--scale-2) / 1.375 var(--font-text);
-  --text-2xl: var(--weight-semibold) var(--scale-3) / 1.25 var(--font-text);
+  --text-2xl: var(--weight-medium) var(--scale-3) / 1.25 var(--font-text);
 
   /* Font scale */
   --scale-000: 0.75rem;

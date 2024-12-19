@@ -1,4 +1,4 @@
-import type { HTMLProps } from "react";
+import type { ComponentProps } from "react";
 import { cx } from "../../lib/cx.ts";
 import styles from "./button.module.css";
 
@@ -7,7 +7,7 @@ type ButtonProps = {
   label: string;
   /** Theme of the button */
   theme?: "primary" | "secondary";
-} & HTMLProps<HTMLButtonElement>;
+} & ComponentProps<"button">;
 
 export const Button = ({
   label,

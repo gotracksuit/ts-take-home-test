@@ -3,7 +3,7 @@ import { describe, it } from "@std/testing/bdd";
 import { render } from "../../testing.ts";
 import { Button } from "./button.tsx";
 
-describe("header", () => {
+describe("button", () => {
   it("renders", () => {
     const { getByText } = render(<Button label="Test" />);
     expect(getByText("Test")).toBeTruthy();
