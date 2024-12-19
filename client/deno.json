@@ -11,6 +11,7 @@
     "@fontsource-variable/quicksand": "npm:@fontsource-variable/quicksand@^5.1.0",
     "@std/expect": "jsr:@std/expect@^1.0.10",
     "@std/testing": "jsr:@std/testing@^1.0.7",
+    "@tanstack/react-query": "npm:@tanstack/react-query@^5.62.8",
     "@testing-library/dom": "npm:@testing-library/dom@^10.4.0",
     "@testing-library/react": "npm:@testing-library/react@^16.1.0",
     "@types/react": "npm:@types/react@^19.0.2",

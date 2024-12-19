@@ -1,5 +1,5 @@
 .envrc
-.direnv/
+.direnv
 .vite
 node_modules
 **/tmp

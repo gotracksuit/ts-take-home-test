@@ -1,0 +1,25 @@
+.button {
+  font: var(--text-sm);
+  border-radius: var(--radius-full);
+  padding: var(--size-2) var(--size-5);
+  font-weight: var(--weight-semibold);
+  cursor: pointer;
+  &:disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    background: var(--color-grey-300);
+    color: var(--color-grey-500);
+  }
+  &.primary {
+    background: var(--color-purple-500);
+    color: var(--color-bg);
+    &:hover {
+      background: var(--color-purple-300);
+      color: var(--color-purple-700);
+    }
+  }
+  &.secondary {
+    color: currentColor;
+    border: 1px solid;
+  }
+}
