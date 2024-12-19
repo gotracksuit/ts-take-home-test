@@ -10,7 +10,11 @@ const env = {
 };
 
 export default defineConfig({
-  root: "src",
+  root: "./src",
+  build: {
+    outDir: "./dist",
+    emptyOutDir: true,
+  },
   plugins: [react(), deno()],
   server: {
     port: env.clientPort,

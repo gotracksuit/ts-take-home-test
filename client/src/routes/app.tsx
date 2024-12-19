@@ -1,3 +1,9 @@
+import styles from "./app.module.css";
+
 export const App = () => {
-  return <h1>HELLO WORLD</h1>;
+  return (
+    <main className={styles.main}>
+      <h1>Hello World</h1>
+    </main>
+  );
 };
