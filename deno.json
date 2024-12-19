@@ -8,7 +8,7 @@
     "dev:client": "deno task dev --filter @stuittracker/client"
   },
   "compilerOptions": {
-    "lib": ["deno.window", "dom"],
+    "lib": ["deno.ns", "dom", "dom.iterable", "dom.asynciterable"],
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   }
