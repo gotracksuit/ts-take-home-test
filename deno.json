@@ -3,9 +3,12 @@
   "workspace": ["./server", "./client", "./lib"],
   "nodeModulesDir": "auto",
   "tasks": {
-    "dev": "deno task dev",
-    "dev:server": "deno task dev --filter @suittracker/server",
-    "dev:client": "deno task dev --filter @stuittracker/client"
+    "dev": {
+      "command": "",
+      "dependencies": ["dev:server", "dev:client"]
+    },
+    "dev:server": "cd server && deno task dev",
+    "dev:client": "cd client && deno task dev"
   },
   "compilerOptions": {
     "lib": ["deno.ns", "dom", "dom.iterable", "dom.asynciterable"],
