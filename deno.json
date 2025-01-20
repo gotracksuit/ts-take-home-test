@@ -11,6 +11,7 @@
     "dev:client": "cd client && deno task dev"
   },
   "compilerOptions": {
+    "strict": true,
     "lib": ["deno.ns", "dom", "dom.iterable", "dom.asynciterable"],
     "jsx": "react-jsx",
     "jsxImportSource": "react"
