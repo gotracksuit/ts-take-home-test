@@ -1,6 +1,5 @@
-import { expect } from "@std/expect";
-import { describe, it } from "@std/testing/bdd";
-import { render } from "../../testing.ts";
+import { describe, expect, it } from "vitest";
+import { render } from "@testing-library/react";
 import { Insights } from "./insights.tsx";
 
 const TEST_INSIGHTS = [

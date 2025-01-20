@@ -1,8 +1,6 @@
-import { expect } from "@std/expect/expect";
-import { describe, it } from "@std/testing/bdd";
-import { screen } from "@testing-library/react";
-import { render } from "../../testing.ts";
-import { Modal } from "./modal";
+import { render, screen } from "@testing-library/react";
+import { describe, expect, it } from "vitest";
+import { Modal } from "./modal.tsx";
 
 describe("Modal", () => {
   it("should open and close", () => {

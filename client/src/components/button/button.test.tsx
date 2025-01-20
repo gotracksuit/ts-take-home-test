@@ -1,7 +1,6 @@
-import { expect } from "@std/expect";
-import { describe, it } from "@std/testing/bdd";
-import { render } from "../../testing.ts";
+import { describe, it, expect } from "vitest";
 import { Button } from "./button.tsx";
+import { render } from "@testing-library/react";
 
 describe("button", () => {
   it("renders", () => {

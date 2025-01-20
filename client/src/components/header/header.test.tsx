@@ -1,7 +1,6 @@
-import { render } from "../../testing.ts";
-import { describe, it } from "@std/testing/bdd";
+import { describe, it, expect } from "vitest";
 import { Header, HEADER_TEXT } from "./header.tsx";
-import { expect } from "@std/expect";
+import { render } from "@testing-library/react";
 
 describe("header", () => {
   it("renders", () => {
