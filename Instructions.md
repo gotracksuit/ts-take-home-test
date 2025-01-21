@@ -40,7 +40,7 @@ which will allow customers to log in and see what data science has found out,
 all without us having to fax anything out at all! We think this is the key to
 taking our business to the next level.
 
-## The task
+## The Task
 
 One of our top developers, Chuggs, has been working on it. But we've just found
 out they were injured in a terrible interview accident, and we need your help to
@@ -63,3 +63,16 @@ So, we need you to:
    maintaining this code
 
 Do it for Chuggs.
+
+## Extra For Experts (or Seniors)
+
+Our eccentric American investor tells us that we'll unlock a huge finding
+milestone if we get this Insights feature working--they will personally
+helicopter us a briefcase of sequentially-numbered USD bills for our next
+funding round if we can pull this off.
+
+We're confident you've got this, so we're already planning to scale our
+engineering team at Suit Tracker from ~~5~~ 4 engineers to 20.
+
+In your opinion, what are we missing that would enable us to scale the team out
+and collaborate on this codebase more effectively?
