@@ -1,3 +1,4 @@
+import { BRANDS } from "../../lib/consts.ts";
 import { Button } from "../button/button.tsx";
 import { Modal, type ModalProps } from "../modal/modal.tsx";
 import styles from "./add-insight.module.css";
@@ -12,8 +13,11 @@ export const AddInsight = (props: AddInsightProps) => {
       <h1 className={styles.heading}>Add a new insight</h1>
       <form className={styles.form} onSubmit={addInsight}>
         <label className={styles.field}>
-          Brand ID
-          <input className={styles["field-input"]} type="number" />
+          <select className={styles["field-input"]}>
+            {BRANDS.map(({ id, name }) => (
+              <option value={id}>{name}</option>
+            ))}
+          </select>
         </label>
         <label className={styles.field}>
           Insight

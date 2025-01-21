@@ -1,20 +1,20 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { useEffect, useState } from "react";
 import { Header } from "../components/header/header.tsx";
 import { Insights } from "../components/insights/insights.tsx";
-import { useListInsights } from "../queries/useListInsights.ts";
 import styles from "./app.module.css";
-
-const queryClient = new QueryClient();
+import type { Insight } from "../schemas/insight.ts";
 
 export const App = () => {
-  const { data, isPending } = useListInsights();
+  const [insights, setInsights] = useState<Insight>([]);
+
+  useEffect(() => {
+    fetch(`/api/insights`).then((res) => setInsights(res.json()));
+  }, []);
 
   return (
-    <QueryClientProvider client={queryClient}>
-      <main className={styles.main}>
-        <Header />
-        <Insights className={styles.insights} insights={data} />
-      </main>
-    </QueryClientProvider>
+    <main className={styles.main}>
+      <Header />
+      <Insights className={styles.insights} insights={insights} />
+    </main>
   );
 };

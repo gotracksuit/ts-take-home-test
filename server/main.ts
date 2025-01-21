@@ -1,9 +1,8 @@
 // deno-lint-ignore-file no-explicit-any
-
 import { Database } from "@db/sqlite";
 import * as oak from "@oak/oak";
 import * as path from "@std/path";
-import { Port } from "@suittracker/lib";
+import { Port } from "../lib/utils/index.ts";
 import listInsights from "./operations/list-insights.ts";
 import lookupInsight from "./operations/lookup-insight.ts";
 
