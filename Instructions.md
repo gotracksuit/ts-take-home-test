@@ -57,7 +57,9 @@ So, we need you to:
 
 2. Complete the missing frontend integrations with those new endpoints
 
-3. Read through and understand the implementation pretty well, since you'll be
+3. Fix any bug Chuggs might have missed 
+
+4. Read through and understand the implementation pretty well, since you'll be
    maintaining this code
 
 Do it for Chuggs.
