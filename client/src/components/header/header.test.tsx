@@ -1,4 +1,4 @@
-import { describe, it, expect } from "vitest";
+import { describe, expect, it } from "vitest";
 import { Header, HEADER_TEXT } from "./header.tsx";
 import { render } from "@testing-library/react";
 

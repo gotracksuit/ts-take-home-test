@@ -68,6 +68,6 @@ export const Modal = ({ open, onClose, children }: ModalProps) => {
         </LayoutGroup>
       )}
     </AnimatePresence>,
-    document.body
+    document.body,
   );
 };

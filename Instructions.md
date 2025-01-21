@@ -2,8 +2,8 @@
 
 Hello, and thanks for taking the time to interview with us at Tracksuit! This is
 a take-home exercise we'd like you to complete. This shouldn't be hard and
-shouldn't take very long — if it takes more than a few hours you're over-thinking
-it!
+shouldn't take very long — if it takes more than a few hours you're
+over-thinking it!
 
 <!-- deno-fmt-ignore-start -->
 > [!Note] 
@@ -57,7 +57,7 @@ So, we need you to:
 
 2. Complete the missing frontend integrations with those new endpoints
 
-2. Read through and understand the implementation pretty well, since you'll be
+3. Read through and understand the implementation pretty well, since you'll be
    maintaining this code
 
 Do it for Chuggs.

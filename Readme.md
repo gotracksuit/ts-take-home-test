@@ -25,24 +25,19 @@ This repo was developed against Deno 2.1.2.
 
 ## Common tasks
 
-Most of the commands you'll need are provided by the Deno toolchain.
+Most of the commands you'll need are provided by the Deno toolchain. You can run
+tasks either from the repo root or within each package
 
-### Running the server
+### Running client and server
 
 ```sh
-deno run dev
+deno task dev
 ```
 
 ### Typechecking
 
 ```sh
 deno check .
-```
-
-### Testing
-
-```sh
-deno test --allow-all
 ```
 
 ### Linting

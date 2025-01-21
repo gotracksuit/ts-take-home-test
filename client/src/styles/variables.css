@@ -157,8 +157,10 @@
   --grid-page-width: var(--width-xl);
   --grid-page-gutter: var(--size-4);
   --grid-page-main: 2 / 3;
-  --grid-page: minmax(var(--grid-page-gutter), 1fr)
-    minmax(0, var(--grid-page-width)) minmax(var(--grid-page-gutter), 1fr);
+  --grid-page: minmax(var(--grid-page-gutter), 1fr) minmax(
+    0,
+    var(--grid-page-width)
+  ) minmax(var(--grid-page-gutter), 1fr);
   @media (--mobile) {
     --grid-page-gutter: var(--size-9);
   }
