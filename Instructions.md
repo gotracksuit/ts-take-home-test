@@ -66,7 +66,7 @@ Do it for Chuggs.
 
 ## Extra For Experts (or Seniors)
 
-Our eccentric American investor tells us that we'll unlock a huge finding
+Our eccentric American investor tells us that we'll unlock a huge funding
 milestone if we get this Insights feature working--they will personally
 helicopter us a briefcase of sequentially-numbered USD bills for our next
 funding round if we can pull this off.
