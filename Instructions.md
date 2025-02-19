@@ -57,7 +57,7 @@ So, we need you to:
 
 2. Complete the missing frontend integrations with those new endpoints
 
-3. Fix any bug Chuggs might have missed 
+3. Fix any bug Chuggs might have missed
 
 4. Read through and understand the implementation pretty well, since you'll be
    maintaining this code
@@ -75,4 +75,5 @@ We're confident you've got this, so we're already planning to scale our
 engineering team at Suit Tracker from ~~5~~ 4 engineers to 20.
 
 In your opinion, what are we missing that would enable us to scale the team out
-and collaborate on this codebase more effectively?
+and collaborate on this codebase more effectively? Have a think and be prepared
+to chat about your thoughts in the interview.
