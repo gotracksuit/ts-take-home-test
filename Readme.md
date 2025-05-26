@@ -3,6 +3,20 @@
 This is a template for a take-home test. See the [Instructions][Instructions]
 for details on the activity.
 
+**Set Up Your Repository**
+
+1. On the top right corner of this page, click the "Use this template" button
+2. Select "Create Your Own Repository" from the dropdown
+3. Give the repository a name under your Github account, and click "Create a new repository"
+4. Follow the below instructions to complete the exercise
+
+**Submit Your Work**
+
+Once you’ve completed the task, share your repository with us in one of the following ways:
+
+1. Option A: Public Repository - Make your new repo public and send the link to the talent manager
+2. Option B: Private Repository - please add the Github users provided by the talent manager as collaborators on your private repository
+
 <!-- Link definitions -->
 
 [DenoInstall]: https://docs.deno.com/runtime/getting_started/installation/
@@ -16,9 +30,11 @@ system's package manager. See [Deno's installation instructions][DenoInstall] to
 find the command that's right for you.
 
 <!-- deno-fmt-ignore-start -->
+
 > [!Tip]
 > Nix users can use `nix develop` to install tools declared in this repo's
 > [Flake][] .
+
 <!-- deno-fmt-ignore-end -->
 
 This repo was developed against Deno 2.1.2.
