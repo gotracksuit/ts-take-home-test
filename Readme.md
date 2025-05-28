@@ -15,7 +15,7 @@ for details on the activity.
 Once you’ve completed the task, share your repository with us in one of the following ways:
 
 1. Option A: Public Repository - Make your new repo public and send the link to the talent manager
-2. Option B: Private Repository - please add the Github users provided by the talent manager as collaborators on your private repository
+2. Option B: Private Repository - please add `tracksuit-technical-test` Github user as a collaborator, and share the repo link with the talent manager
 
 <!-- Link definitions -->
 
