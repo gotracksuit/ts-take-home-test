@@ -12,7 +12,7 @@ for details on the activity.
 
 **Submit Your Work**
 
-Once you’ve completed the task, please add `tracksuit-technical-test` Github user as a collaborator, and share the repo link with the talent manager.
+Once you’ve completed the task, please add the `tracksuit-technical-test` Github user as a collaborator, and share the repo link with the talent manager.
 
 <!-- Link definitions -->
 
