@@ -63,17 +63,3 @@ So, we need you to:
    maintaining this code
 
 Do it for Chuggs.
-
-## Extra For Experts (or Seniors)
-
-Our eccentric American investor tells us that we'll unlock a huge funding
-milestone if we get this Insights feature working--they will personally
-helicopter us a briefcase of sequentially-numbered USD bills for our next
-funding round if we can pull this off.
-
-We're confident you've got this, so we're already planning to scale our
-engineering team at Suit Tracker from ~~5~~ 4 engineers to 20.
-
-In your opinion, what are we missing that would enable us to scale the team out
-and collaborate on this codebase more effectively? Have a think and be prepared
-to chat about your thoughts in the interview.
